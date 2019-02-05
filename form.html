@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Пинк - форма</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <a class="page-header__logo">
+            <img class="page-header__logo-image" src="#" alt="Пинк">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button">Открыть меню</button>
+            <div class="main-nav__wrapper">
+                <ul class="main-nav__site-list site-list">
+                    <li class="site-list__item site-list__item--current">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Фотографии</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Конкурс</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Html academy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="form-main">
+        <h2 class="form-main__title">Конкурс на самое<br>безбашенное<br> путешествие с Пинк</h2>
+        <p class="form-main__info">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+
+        <form class="application-form" method="get" action="#">
+            <h2 class="visually-hidden">Заполните форму</h2>
+            <fieldset class="application-form__personal-info">
+                <label for="second-name">Фамилия:</label>
+                <input id="second-name" type="text" placeholder="Укажите фамилию">
+                <label for="name">Имя:</label>
+                <input id="name" type="text" placeholder="Введите ваше имя">
+                <label for="patronymic">Отчество:</label>
+                <input id="patronymic" type="text" placeholder="Ну и отчество тоже">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
